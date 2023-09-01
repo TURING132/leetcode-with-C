@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/liliyang/Desktop/Junior1/ds/leetcode-with-C",
+      "program": "/Users/liliyang/Desktop/Junior1/ds/leetcode-with-C/build/Debug/outDebug"
+    }
+  ]
+}
