@@ -12,8 +12,6 @@ struct ListNode* swapPairs(struct ListNode* head){
     struct ListNode * cur = prehead;
     while(cur->next&&cur->next->next){
         // 0->1->2->3
-        // 0->1->3 2->3
-        // 0->2->3 1->3
         // 0->2->1->3
         struct ListNode * temp1 = cur->next,*temp2 = cur->next->next;
         cur->next = temp2;
